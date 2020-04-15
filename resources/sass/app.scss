@@ -11,3 +11,28 @@
 @import "~@fortawesome/fontawesome-free/scss/fontawesome.scss";
 @import "~@fortawesome/fontawesome-free/scss/solid.scss";
 @import "~@fortawesome/fontawesome-free/scss/brands.scss";
+
+//.router-link-exact-active{
+//    background-color: #28a745;
+//    color: white !important;
+//}
+//
+//
+//  [class*="sidebar-dark-"] .nav-sidebar > .nav-item > .nav-link:focus {
+//    background-color: #28a745;
+//    color: white !important;
+//}
+
+li> .router-link-exact-active{
+    background-color: #165fd2;
+    color: white !important;
+}
+
+
+[class*="sidebar-dark-"] .nav-treeview > .nav-item > .nav-link:focus {
+    background-color: #165fd2;
+    color: white !important;
+}
+
+
+
